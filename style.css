@@ -102,4 +102,20 @@ input, select {
 }
 
 /*-------------index-----------------------*/
+.bg-image {
+    background-image: url('images/bg_book.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+  .box
+  {
+    background-color: red;
+    width: 350px;
+    height: 450px;
+    margin: 60px auto;
+    opacity: .6;
+  }
+  
