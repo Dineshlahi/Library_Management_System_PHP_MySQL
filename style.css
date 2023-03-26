@@ -112,13 +112,15 @@ header
 {
     height: 130px;
     width: 1364px;
-    background-color: black;
+    background-color: aqua;
 }
 section
 {
-    height: 450px;
-    width: 1364px;
+    height: 100%;
+    width: 100%;
     background-color: grey;
+    background-image: url(images/bg_book.png);
+    
 }
 
 footer
@@ -127,7 +129,45 @@ footer
     width: 1364px;
     background-color: black;
 }
+.logo
+{
+    padding-left: 20px;
+    float: left;
+    
+}
 li a
 {
-    color: white;
+    color: black;
+    text-decoration: none;
+}   
+nav
+{
+    word-spacing:30px;
+    padding: 20px;
+    float: right;
+}
+
+nav li
+{
+
+    display: inline-block;
+    line-height: 70px;
+   
+}
+.logo img
+{
+    width: 150px;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.box
+{
+    height: 300px;
+    width: 450px;
+    background-color: #e40c5e8f;
+    margin: 60px auto;
+    opacity: .6;
+
 }
