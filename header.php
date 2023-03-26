@@ -1,3 +1,7 @@
-<?php
-echo "hi"
-?>
+<html>  
+    <body>  
+        <?php  
+         
+        ?>  
+    </body>  
+</html>  
